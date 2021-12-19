@@ -104,6 +104,12 @@ section.homepage-background {
 
 }
 
+/* background-attachment: fixed; zorgt ervoor dat mijn foto op homepagina
+vast zit en niet meer scrollt. https://www.youtube.com/watch?v=zX3ikOsQg58&t=1129s&ab_channel=TutorialsDev
+deze video heeft mij geinspireerd voor mijn homepagina en navbar, veel dingen heb
+ik aangepast en moest ook veel op mijn eigen manier doen, aangzien zij veel classes etc gebruiken
+en wij dat zo beperkt mogelijk houden, alleen als het echt nodig was. */
+
 section.homepage-background h1 {
     font-size: 8em;
 }
@@ -215,3 +221,7 @@ omdat hij een ander onderwerp heeft en veel classes gebruikte. */
         font-size: 1em;
     }
 }
+
+/* https://www.w3schools.com/cssref/css3_pr_mediaquery.asp heeft mij geleerd 
+mijn website responsive te maken, dat het er zowel goed uit ziet op desktop
+als op mobile. */
